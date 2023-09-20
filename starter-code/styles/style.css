@@ -4,7 +4,7 @@ body{
 }  
 .container
 {
-    padding: 5% 7%;
+    padding: 3% 20% 10%;
 } 
 .navbar{
     display:flex;
@@ -38,7 +38,7 @@ body{
 }
 .main-img{
     position: absolute;
-    right: 50%;
+    right: 39%;
     top: 10%;
     z-index: -9;    
 }
@@ -50,12 +50,15 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 400px;
-    gap: 15%;
+    gap: 1%;
 }
 .main-box-left{
     margin-left: 250px;}
 
-
+.main-curved{
+    position: absolute;
+    left: 39%;
+}
 .footer{
     font-size: x-large;
     display: flex;
