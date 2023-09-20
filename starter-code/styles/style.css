@@ -4,8 +4,7 @@ body{
 }  
 .container
 {
-    padding:2% 10%;
-
+    padding: 5% 7%;
 } 
 .navbar{
     display:flex;
@@ -51,21 +50,36 @@ body{
     flex-direction: row;
     justify-content: flex-start;
     margin-bottom: 400px;
+    gap: 15%;
 }
 .main-box-left{
     margin-left: 250px;}
 
 
 .footer{
+    font-size: x-large;
     display: flex;
     background: #1c1c1c;
-    padding: 7%;
+    padding: 5%;
     border-radius: 10px;
     color: white;
     flex-direction: row;
     gap: 20%;
     align-items: center;
+    justify-content: center;
 }
 p{
     color: gray;
+}
+.footer-bottom{
+    padding: 2%;
+}
+.footer-bottom >img{
+    width: 25px;
+    margin-right: 50px;
+}
+.box-f{
+    display:flex;
+    flex-direction: row;
+    gap: 25px;
 }
