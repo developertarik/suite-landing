@@ -43,10 +43,29 @@ body{
     top: 10%;
     z-index: -9;    
 }
+.main-param{
+    color: gray;
+}
 .main{
     display:flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-bottom: 400px;
 }
 .main-box-left{
     margin-left: 250px;}
+
+
+.footer{
+    display: flex;
+    background: #1c1c1c;
+    padding: 7%;
+    border-radius: 10px;
+    color: white;
+    flex-direction: row;
+    gap: 20%;
+    align-items: center;
+}
+p{
+    color: gray;
+}
